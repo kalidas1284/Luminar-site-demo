@@ -1,0 +1,328 @@
+.headLeft img{
+    width:270px;
+    margin: 4px;
+    margin-left: 35px;
+}
+.headLeft{
+    padding: 0 10px;
+}
+ nav ul li{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+ }
+
+ nav ul li a {
+    margin: 0 8px;
+ }
+
+ nav ul{
+    margin-top: 0;
+    margin: 15px 0;
+    margin-left: 60px;
+ }
+
+.intro{
+    background-color: #deccff;
+    padding: 30px 0;
+}
+.intro img{
+    width: 630px;
+}
+.intro h1{
+    font-size: 39px;
+    font-weight: 600;
+    color: #6d1d8e;
+    line-height: 60px;
+}
+ .intro h4{
+    margin: 15px 0;
+    font-size: 24px;
+    font-weight: 1000;
+    color: #6d1d8e;
+}
+ .intro p{
+    margin: 25px 0;
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+ }
+
+ .intro button{
+    background-color: #6d1d8e;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 15px 0;
+    border-radius: 50px;
+    border: none;
+    padding: 10px 30px;
+ }
+ .about h1{
+    width: 550px;
+    align-items: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: #6d1d8e;
+    line-height: 59px;
+ }
+ .about p{
+    width: 600px;
+    font-size: 15px;
+    margin-top: 40px;
+ }
+
+ .courseCont{
+    padding: 0 130px;
+    display: flex;
+    position: relative;
+    margin: 40px 0;
+ }
+ .courseCont img{
+    width: 30px;
+    position: absolute;
+    right: 130px;
+    top: 36px;
+ }
+ .courseCont input{
+    width: 100%;
+    padding: 18px 20px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-bottom: .1rem solid #c5c5c5;
+    margin: 10px 0;
+ }
+ .coursesDetails{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 27px;
+    margin: 50px 0 ;
+    padding: 0 237px;
+ }
+  .courses{
+    background-color: #f8f8f8;
+    padding: 15px 20px;
+    border-radius: 10px;
+    transition: .3s;
+  }
+
+  .courseImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ececec;
+    width: 180px;
+    height: 160px;
+    border-radius: 50%;
+    margin: 35px 55px;
+  }
+
+  .courseImg img{
+    width: 60px;
+  }
+
+ .courses h5{
+    font-size: 20px;
+    font-weight: 700;
+    color: #6d1d8e;
+    text-align: left;
+ }
+ .aboutCourse{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+ }
+ .courses p{
+    font-size: 14px;
+    line-height: 19px;
+    margin: 50px 0 40px;
+    columns: #515151;
+ }
+ .batch{
+    font-size: 15px;
+ }
+ span{
+    color: #6d1d8e;
+    font-size: 14px;
+    font-weight: 700;
+ }
+ .aboutCourse button{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 15px 0;
+    color: #6d1d8e;
+    border-radius: 50px;
+    border: 2px solid #6d1d8e;
+    padding: 10px 40px;
+    margin: 40px 0;
+ }
+ .whyLuminarPoints{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px 125px;
+ }
+ .whyLuminarPoints h1{
+    margin: 2px 0;
+    color: #6d1d8e;
+    font-size: 45px;
+    font-weight: 500;
+ }
+ .whyLuminarPoints p{
+    column-rule: #515151;
+    font-size: 15px;
+    line-height: 23px;
+    margin-right: 70px;
+    text-align: justify;
+ }
+ .whyLuminarPoints ul{
+    text-align: left;
+    list-style-type:calc()
+    transform: translate(-40px 0);
+ }
+ .whyLuminarPoints ul li{
+    font-size: 16px;
+    font-weight: 750;
+    line-height: 32px;
+    color: black;
+    background-image: url(./image/10001.png);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    margin: 5px 0;
+    background-color: white;
+    
+}
+.join{
+    padding: 130px 270px;
+    width: 100%;
+    height: 580px;
+    background-image: url("https://www.luminartechnolab.com/static/media/pexels-kindel-media-7054785.47b27e7d.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.join h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+.join p{
+    color: #BB9867;
+    text-align: center;
+    font-size: 15px;
+    margin: 30px 0;
+}
+.join button{
+    font-size: 17px;
+    font-weight: 700;
+    margin: 15px 0;
+    color: #6d1d8e;
+    border-radius: 50px;
+    padding: 10px 40px;
+    margin: 40px 0;
+}
+nav ul li div{
+    margin: auto;
+    transform: translate(0,-5);
+    width: 0%;
+    height: 3px;
+    background-color: #6d1d8e;
+    transition: 1s;
+}
+.footimg{
+    display: flex;
+    margin-left: 7px;
+    margin-top: 20px;
+}
+.footimg img{
+    width: 40px;
+    margin: 10px 2px;
+}
+.footHov p{
+    padding-bottom: 5px;
+}
+nav ul li:hover .under{
+    width: 90%;
+}
+nav ul li a:hover{
+    color: #6d1d8e;
+}
+.courses:hover{
+    box-shadow: rgba(0, 0, 0, 0.35)0px 5px 15px;
+}
+.courses:hover .aboutCourse button{
+    color: white;
+    background-color: #460B5E;
+}
+.footHov p:hover{
+    border-bottom: 1px solid #6d1d8e;
+    color: #6d1d8e;
+    transition: all 1s ease 0s;
+}
+::placeholder{
+    color: rgb(178, 172,172);
+}
+.courseImg:hover{
+    color:#f8f8f8
+    background-color: #6d1d8e;
+}
+
+
+@media screen and (max-width:600px){
+    .headLeft img{
+        width: 250px;
+        display: block;
+        margin: auto;
+    }
+    .intro img{
+        width: 100%;
+    }
+    .about h1{
+        width: 100%;
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .about p{
+        width: 100%;
+        font-size: 15px;
+    }
+    .courseCont{
+        padding: 0 20px;
+    }
+    .courseCont img{
+        right: 20px;
+    }
+    .coursesDetails{
+        padding: 0 15px;
+    }
+    .whyLuminarPoints{
+        padding: 20px 20px;
+    }
+    .whyLuminarPoints h1{
+        font-size: 27px;
+    }
+    .whyLuminar{
+        height: inherit;
+        margin-top: 50px;
+    }
+    .whyLuminarPoints p{
+        margin-right: 0px;
+    }
+    .whyLuminarPoints ul li{
+        font-size: 13px;
+    }
+    .join{
+        height: inherit;
+        padding: 20px 20px;
+        background-position: left;
+    }
+    .join h1{
+        font-size: 30px;
+    }
+    .footimg{
+        justify-content: center;
+    }
+}
+
